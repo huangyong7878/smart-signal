@@ -131,7 +131,7 @@ class IStrategy(ABC):
             return False, False
 
         (buy, sell) = latest[SignalType.BUY.value] == 1, latest[SignalType.SELL.value] == 1
-        logger.INFO(
+        logger.info(
             'trigger: %s (pair=%s) buy=%s sell=%s',
             latest['date'],
             pair,
