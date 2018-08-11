@@ -1,0 +1,7 @@
+ccxt
+structlog
+python-json-logger
+PyYAML
+TA-lib
+pandas
+tushare

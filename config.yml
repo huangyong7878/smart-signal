@@ -1,0 +1,19 @@
+settings:
+  log_mode: text
+  log_level: DEBUG
+  output_mode: cli
+  update_interval: 300
+  market_pairs:
+    - ETH/BTC
+#    - LTC/BTC
+#    - XMR/BTC
+
+exchanges:
+    bittrex:
+        required:
+            enabled: true
+strategy:
+  name: '002'
+
+
+informations:
